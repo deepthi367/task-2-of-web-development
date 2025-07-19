@@ -1,0 +1,56 @@
+.container{
+  background-image: linear-gradient(to bottom, #9b63a2, #8d4a85);
+  background-size: cover;
+  height: 100vh;
+}
+.head{
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+}
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+}
+.card-container{
+    padding: 20px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height:180px;
+    width: 210px;
+    margin: 20px auto;
+
+}
+.head-2{
+    font-size: 18px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.btn{
+  margin-top: 10px;
+  background-color: chocolate;
+  border-radius: 8px;
+  color: black;
+  padding: 8px;
+  border-width: 0px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  width: 110px;
+}
+.new-task-heading{
+  font-size: 12px;
+  margin-top:8px;
+  font-weight: bold;
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+}

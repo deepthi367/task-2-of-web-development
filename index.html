@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="head">ApexPlanet Web project - Task 2</h1>
+        <div class="cards-row">
+          <div class="card-container">
+            <h1 class = "head head-2">Add User</h1>
+            <form id = "userForm">
+                <div class = "mb-3">
+                    <label for="name">Name</label>
+                    <input id = "name" type="text" placeholder="Enter text" required>
+                </div>
+                <div class = "mb-3">
+                    <label for="email">Email</label>
+                    <input id = "email" type="email" placeholder="Enter email" required>
+                </div>
+                <button type = "submit" class="btn">
+                    Submit
+                </button>
+            </form>
+          </div>
+           <div class="card-container">
+             <h1 class="head head-2">Todos</h1>
+             <h1 class="new-task-heading">New Task</h1>
+             <input type="text" id = "taskInput" placeholder="What needs to be Done?">
+             <button onclick = "addTask()" id = "addTaskButton" class="btn">Add Task</button>
+             <ul id="taskList"></ul>
+            </div>
+            <div class="card-container">
+               <h1 class="head head-2">My Gallery</h1>
+               <h1 class="new-task-heading">Paste Image Url</h1>
+               <input type="text" id = "imgUrl" placeholder="Paste image URL">
+               <button onclick = "addImage()" id="addImageButton" class="btn">Add Image</button> 
+               <div id = "gallery"></div>  
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
